@@ -1,6 +1,6 @@
-import image1 from "./assets/phoneCard1.png";
-import image2 from "./assets/phoneCard2.png";
-import image3 from "./assets/phoneCard3.png";
+import image1 from "./assets/phonecard1.png";
+import image2 from "./assets/phonecard2.png";
+import image3 from "./assets/phonecard3.png";
 import logoOne from "./assets/alch.png";
 import logoTwo from "./assets/secondarc.png";
 export const painPoints = [
