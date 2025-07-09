@@ -1,1 +1,426 @@
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Geologica:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.navigation {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+  min-height: 70px;
+  align-items: center;
+}
+
+li {
+
+  list-style: none;
+}
+
+.nav-btn {
+  display: flex;
+  background: #9CDDD7;
+  align-items: center;
+  padding: 12px 24px;
+  border-radius: 24px;
+
+
+}
+
+.green {
+  color: green;
+}
+
+/* home styles */
+.hero-section {
+  border: 2px solid red;
+  max-width: 928px;
+  width: 100%;
+  margin: 4rem auto;
+  padding: 10px 15px;
+}
+
+.hero-title {
+  text-align: center;
+  font-family: "Geologica", sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 50px;
+
+
+
+}
+
+.hero-highlight {
+  color: #9CDDD7;
+}
+
+.hero-paragraph {
+  text-align: center;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #3A3A3A
+}
+
+.hero-btn {
+  display: block;
+  max-width: 390px;
+  border: 2px solid purple;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+.joinList,
+button {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 15px;
+  background-color: #9CDDD7;
+  border: none;
+  outline: none;
+
+}
+
+.learn {
+
+
+  margin: 20px auto;
+
+}
+
+.learn a {
+  text-align: center;
+  display: block;
+  color: grey;
+
+}
+
+.arrow-down {
+  display: block;
+  color: grey;
+  margin: 15px auto;
+}
+
+/* phoneCard-section section */
+.phoneCard-section {
+  border: 2px solid red;
+  max-width: 928px;
+  width: 100%;
+  margin: 4rem auto;
+  padding: 10px 15px;
+  position: relative;
+
+}
+
+.phoneCard-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+
+
+}
+
+
+.phoneCard-text {
+  background-color: #9CDDD7;
+  position: absolute;
+  bottom: -20rem;
+  left: 0;
+  right: 0;
+  border: 2px solid red;
+
+  width: 100%;
+
+
+}
+
+.phoneCard-text p {
+  text-align: center;
+  font-family: "Geologica", sans-serif;
+  /* font-weight: 700;
+  font-style: Bold; */
+  /* font-size: 50px; */
+  color: #3A3A3A;
+}
+
+.myphotos {
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  gap: 3rem;
+
+}
+
+.myphotos img {
+  width: 100px;
+  display: block;
+}
+
+/* third components */
+.bigger-container {
+  max-width: 1400px;
+  width: 100%;
+  border: 2px solid green;
+
+  position: relative;
+  top: 2rem;
+}
+
+.peer-loaning {
+  border: 2px solid red;
+  text-align: center;
+  width: 622px;
+  margin: 3rem auto;
+  padding: 5px 7px;
+
+}
+
+.peer-loaning {
+  margin-bottom: 10px;
+  color: #9CDDD7;
+  font-family: DM Sans;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.peer-heading {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-style: Bold;
+  line-height: 1.2;
+  font-size: 40px;
+  color: black;
+  margin-top: 1rem;
+
+
+  text-align: center;
+
+}
+
+.peer-paragraph {
+
+  font-family: DM Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  color: #3A3A3A;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 6px;
+}
+
+.paragraph-two {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  color: #3A3A3A;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+
+}
+
+/* sixth components  */
+.sixth-components {
+  border: 2px solid purple;
+  max-width: 1264px;
+  margin: 3rem auto;
+  width: 100%;
+  margin-top: 70px;
+}
+
+.sixth-container {
+  display: flex;
+
+  align-items: center;
+  gap: 13rem;
+
+
+}
+
+.sixth-image img {
+  width: 70%
+}
+
+
+.sixth-image {
+  flex: 1;
+  background-color: #EFDA9E;
+  text-align: center;
+  justify-content: center;
+  padding: 10px 0;
+  border-radius: 8px;
+}
+
+.sixth-image h1 {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 32px;
+  margin-top: 15px;
+
+  line-height: 100%;
+  letter-spacing: 0%;
+
+}
+
+.sixth-image p {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  margin-top: 10px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+
+
+}
+
+.sixth-text {
+  flex: 1;
+
+}
+
+.feature-card {
+  display: flex;
+  align-items: center;
+  min-height: 70px;
+  gap: 10px;
+  justify-content: flex-center;
+}
+
+.feature-title {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 5px;
+
+}
+
+.feature-desc {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+
+  line-height: 100%;
+  letter-spacing: 0%;
+
+}
+
+/* seveth components  */
+.comparison-container {
+  display: flex;
+  margin-top: 70px;
+  align-items: center;
+  border: 2px solid purple;
+  max-width: 1264px;
+  margin: 3rem auto;
+  width: 100%;
+  padding: 0 5px;
+  justify-content: space-between;
+}
+
+
+
+.list-item {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.comparison-image {
+  width: 100%;
+  background-color: #BDE1DEB2;
+}
+
+.faded {
+  color: #bbb;
+  /* lighter gray */
+  opacity: 0.6;
+}
+
+
+.comparison-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #999;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 200px;
+  flex-direction: column;
+  height: 10vh;
+
+  /* so lines stretch full width in flex context */
+}
+
+.comparison-divider-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #999;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.comparison-divider-vertical::before,
+.comparison-divider-vertical::after {
+  content: '';
+  width: 1px;
+  height: 150px;
+
+  background: #ccc;
+}
+
+.comparison-divider-vertical::before {
+  margin-bottom: 0.5em;
+}
+
+.comparison-divider-vertical::after {
+  margin-top: 0.5em;
+}
